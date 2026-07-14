@@ -37,6 +37,13 @@ To start of the showcase here is the snapshot of what the administrator window l
 <p>
 The login for the "users" of the platform is a lot more generic. Implemented so that users did not need to be registered with an email and password to be able to submit tickets. In theory if this was implemented officially it would allow general public to submit tickets for general personal device issues.
 </p>
+<h2>How to Change "branding" in osTicket</h2>
+<p/>
+  <img width="1920" height="1080" alt="Change_Logo" src="https://github.com/user-attachments/assets/fbc7bd4c-9dcf-49c7-9c59-0e28f66dafbd" />
+</p>
+<img width="1920" height="1080" alt="Change_Backdrop" src="https://github.com/user-attachments/assets/06af1e09-6b31-4dea-8a69-bdc2384ead77" />
+</p>
+Fairly straight forward! All you have to do is go to "Admin Panel" in the top right. Once there, Click "Settings" then go to "Company". Under the "Company" tab you will see the tabs "Logos" and Backdrop". You can navigate to those tabs respectively to change your branding to change up from the generic osTicketing setup.
 <br />
 <h2>Agent Setup</h2>
 <p>
