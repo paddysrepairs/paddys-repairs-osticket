@@ -85,7 +85,6 @@ A very simple password reset ticket! Hilda needed to reset password because she 
 </p>
 <img width="1920" height="1080" alt="Shot_3_Hilda" src="https://github.com/user-attachments/assets/f4dbad62-e7c1-4a4d-9ee2-124a46143c94" />
 </p>
-<br />
 <h2>Tickets Successfully Worked and Closed!</h2>
 </p>
 <img width="1920" height="1080" alt="Closed_Tickets" src="https://github.com/user-attachments/assets/e55538ca-12ce-4b43-945b-f85b0e8ae7cd" />
