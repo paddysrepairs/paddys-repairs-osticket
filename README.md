@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
+This project outlines the post-install configuration of the open-source help desk ticketing system osTicket customized and branded for Paddy's Repairs including some examples of some tickets "worked" to showcase life cycle and implementation of the ticketing platform.<br />
 
 
 <h2>Video Demonstration</h2>
