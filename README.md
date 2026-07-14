@@ -1,6 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
-<img width="350" height="350" alt="Paddys_Repairs_Logo_2026_Final" src="https://github.com/user-attachments/assets/98e19316-676d-4d1e-aece-c3e9680267f5" />
+<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/><img width="350" height="350" alt="Paddys_Repairs_Logo_2026_Final" src="https://github.com/user-attachments/assets/98e19316-676d-4d1e-aece-c3e9680267f5" />
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
