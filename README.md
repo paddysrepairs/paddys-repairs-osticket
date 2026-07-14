@@ -38,11 +38,16 @@ To start of the showcase here is the snapshot of what the administrator window l
 The login for the "users" of the platform is a lot more generic. Implemented so that users did not need to be registered with an email and password to be able to submit tickets. In theory if this was implemented officially it would allow general public to submit tickets for general personal device issues.
 </p>
 <br />
-
+<h2>Agent Setup</h2>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1920" height="1080" alt="Agent_Setup" src="https://github.com/user-attachments/assets/fe687e3c-d230-49ba-ba68-bbed0af470ca" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+For this scenario I only setup my self as the agent servicing this help desk. Mocked up to be a one person "Help Desk" and "Repair Technician"
 </p>
 <br />
+<h2>Users Listed</h2>
+</p>
+<img width="1920" height="1080" alt="Users_Setup" src="https://github.com/user-attachments/assets/eb7c058e-c962-4984-93c1-594d140a0d27" />
+</p>
+I only registered a few users while setting up this excerise/ project. Since I am fairly big Pokemon Fan. I decided to setup fictional scenarios assisting characters in that universe with their tech needs as a help desk agent.
