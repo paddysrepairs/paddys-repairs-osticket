@@ -52,9 +52,9 @@ Fairly straight forward! All you have to do is go to "Admin Panel" in the top ri
 <p>
 For this scenario I only setup my self as the agent servicing this help desk. Mocked up to be a one person "Help Desk" and "Repair Technician"
 </p>
-<br />
 <h2>Users Listed</h2>
 </p>
 <img width="1920" height="1080" alt="Users_Setup" src="https://github.com/user-attachments/assets/eb7c058e-c962-4984-93c1-594d140a0d27" />
 </p>
 I only registered a few users while setting up this excerise/ project. Since I am fairly big Pokemon Fan. I decided to setup fictional scenarios assisting characters in that universe with their tech needs as a help desk agent.
+<br />
