@@ -64,3 +64,30 @@ I wanted to have a healthy variety of issues to choose from if a client were to 
 </p>
 <img width="1920" height="1080" alt="Help_Topics_Paddy&#39;s_Repairs" src="https://github.com/user-attachments/assets/ce160d3e-e2ad-4c02-87c4-556649dca080" />
 </p>
+<br />
+<h2>Working Ticket Cycle Example 1 "Prof Oaks Business Critical Network Issue"</h2>
+</p>
+The first ticket example I "worked" was pretending that Prof Oak of the Kanto region had a "Business Critical" network outage at the lab... with a very silly and straight foward fix to the issue!
+</p>
+<img width="1920" height="1080" alt="Shot_1" src="https://github.com/user-attachments/assets/d060ae33-698e-49a7-a460-58231895113b" />
+</p>
+<img width="1920" height="1080" alt="Shot_2" src="https://github.com/user-attachments/assets/96113f9a-e268-4d46-868d-0374ccb713ae" />
+</p>
+<img width="1920" height="1080" alt="Shot_3" src="https://github.com/user-attachments/assets/8396fbd6-9b71-434f-9830-8c20426382ff" />
+<br />
+<h2>Working Ticket Cycle Example 2 "Hilda's Password Reset"</h2>
+</p>
+A very simple password reset ticket! Hilda needed to reset password because she couldn't access the storage system to change up her team for the big gym challenge the next day!
+</p>
+<img width="1920" height="1080" alt="Shot_1_Hilda" src="https://github.com/user-attachments/assets/214c5624-0ec9-4f8d-a4a1-1c32c7b04d4a" />
+</p>
+<img width="1920" height="1080" alt="Shot_2_Hilda" src="https://github.com/user-attachments/assets/50ef8457-b95f-4db8-b153-160d1368e849" />
+</p>
+<img width="1920" height="1080" alt="Shot_3_Hilda" src="https://github.com/user-attachments/assets/f4dbad62-e7c1-4a4d-9ee2-124a46143c94" />
+</p>
+<br />
+<h2>Tickets Successfully Worked and Closed!</h2>
+</p>
+<img width="1920" height="1080" alt="Closed_Tickets" src="https://github.com/user-attachments/assets/e55538ca-12ce-4b43-945b-f85b0e8ae7cd" />
+</p>
+<h2>Thank you for overviewing my implementation of osTicket!</h2>
