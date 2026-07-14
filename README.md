@@ -58,3 +58,9 @@ For this scenario I only setup my self as the agent servicing this help desk. Mo
 </p>
 I only registered a few users while setting up this excerise/ project. Since I am fairly big Pokemon Fan. I decided to setup fictional scenarios assisting characters in that universe with their tech needs as a help desk agent.
 <br />
+<h2>Help Topics Added</h2>
+</p>
+I wanted to have a healthy variety of issues to choose from if a client were to reach out for assistance using the platform. The topics I included in the ticketing system are listed below:
+</p>
+<img width="1920" height="1080" alt="Help_Topics_Paddy&#39;s_Repairs" src="https://github.com/user-attachments/assets/ce160d3e-e2ad-4c02-87c4-556649dca080" />
+</p>
