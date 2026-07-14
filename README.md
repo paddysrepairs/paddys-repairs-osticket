@@ -22,21 +22,20 @@ This project outlines the post-install configuration of the open-source help des
 - Make the system environment look like it belongs to specific brand (In this case Paddy's Repairs)
 - Show working knowledge of Azure, Virtual Machines and osTicket.
 
-<h2>Configuration Steps</h2>
+<h2>Configuration "Login" Panels</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1920" height="1080" alt="Admin_Login" src="https://github.com/user-attachments/assets/ac793099-3f05-4450-9e33-c51acc606fa0" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To start of the showcase here is the snapshot of what the administrator window looks like for the brand. Uploaded my own logos and branding to give a more personal feel to the ticketing system.
 </p>
 <br />
-
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1920" height="1080" alt="Login_Users" src="https://github.com/user-attachments/assets/21f8916b-8df9-4145-98bc-40ab5af5912c" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The login for the "users" of the platform is a lot more generic. Implemented so that users did not need to be registered with an email and password to be able to submit tickets. In theory if this was implemented officially it would allow general public to submit tickets for general personal device issues.
 </p>
 <br />
 
