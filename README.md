@@ -31,8 +31,17 @@ This project outlines the post-install configuration of the open-source help des
 
 <h2>Setting up the Virtual Machine in Azure</h2>
 <p>
-
+<img width="1955" height="1080" alt="Step_1_Setup_osTicket_Resource_Group" src="https://github.com/user-attachments/assets/82808e28-2e50-4a00-810f-a3f16515c952" />
 </p>
+Create a new resource group!
+<p>
+<img width="1984" height="1080" alt="Step_2_Setup_osTicket_Network" src="https://github.com/user-attachments/assets/703889a8-1740-4f18-a831-242f22953431" />
+</p>
+Setup new virtual network!
+<p>
+<img width="1960" height="1080" alt="Step_3_Setup_osTicket_VM" src="https://github.com/user-attachments/assets/ebbc6f79-53e3-490f-9c61-a059fb762e99" />
+</p>
+Create new virtual machine. Labelled in correlation to the exercise. This case "osTicket". 
 
 <h2>Install Steps</h2>
 
