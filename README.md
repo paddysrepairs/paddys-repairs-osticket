@@ -29,6 +29,11 @@ This project outlines the post-install configuration of the open-source help des
 - Make the system environment look like it belongs to specific brand (In this case Paddy's Repairs)
 - Show working knowledge of Azure, Virtual Machines and osTicket.
 
+<h2>Setting up the Virtual Machine in Azure</h2>
+<p>
+
+</p>
+
 <h2>Install Steps</h2>
 
 <h2>Step 1, Download Files</h2>
