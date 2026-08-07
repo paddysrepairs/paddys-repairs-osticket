@@ -34,10 +34,12 @@ This project outlines the initial setup briefly and post-install configuration o
 <img width="1955" height="1080" alt="Step_1_Setup_osTicket_Resource_Group" src="https://github.com/user-attachments/assets/82808e28-2e50-4a00-810f-a3f16515c952" />
 </p>
 Create a new resource group!
+
 <p>
 <img width="1984" height="1080" alt="Step_2_Setup_osTicket_Network" src="https://github.com/user-attachments/assets/703889a8-1740-4f18-a831-242f22953431" />
 </p>
 Setup new virtual network!
+
 <p>
 <img width="1960" height="1080" alt="Step_3_Setup_osTicket_VM" src="https://github.com/user-attachments/assets/ebbc6f79-53e3-490f-9c61-a059fb762e99" />
 </p>
@@ -66,10 +68,12 @@ Create a folder on your c: drive named "PHP" and move/ copy the PHP folder in th
 <img width="1053" height="652" alt="Install_Step_3_Rewrite" src="https://github.com/user-attachments/assets/bd7a860e-faac-4683-8e59-e2de6031fe49" />
 </p>
 Install and go through the prompts in the for the rewrite_amd installer and wait for it to finish installing.
+
 <p>
 <img width="1165" height="782" alt="Install_Step_5_Install_VC" src="https://github.com/user-attachments/assets/d164cdda-d46d-4ba3-9c87-5471f55eb396" />
 </p>
 Next install VC_redist.x86 packages. Your PC may already have them installed but in the case of installing this on an Azure remote machine. Ran it fine and installed them.
+
 <p>
 <img width="1500" height="732" alt="Install_Step_6_SQL" src="https://github.com/user-attachments/assets/538f37e8-120f-4dc5-9ecb-91dbc6bdd592" />
 <p>
