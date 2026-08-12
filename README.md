@@ -192,7 +192,9 @@ Accept the license agreement and click "Next".
 </p>
 Select "Typical" for the install variation and click "Next".
 
-<h2>Important Note<h2>
+<h2>Important Note</h2>
+
+<b>
 There is a step to create a root login for at this stage*. Be sure to create the login to something that you will easily remember and not lose as we will need it later on in the step up process.
 </b>
 
@@ -297,7 +299,7 @@ Fill in the default accounts that will be used for your ticketing system.
 <p>
 <img width="960" height="510" alt="Step_25_heidi_setup" src="https://github.com/user-attachments/assets/73ac7137-f4ef-4e43-a6b1-f4d30f23e9c7" /> 
 </p>
-Minimise your web browser for a breif moment as we need to install one last component for the database. Time to setup Heidi. Navigate to where the installer is in the downloads folder.
+Minimise your web browser for a brief moment as we need to install one last component for the database. Time to setup Heidi. Navigate to where the installer is in the downloads folder.
 <p>
 <img width="960" height="510" alt="Step_25_heidi_setup_2" src="https://github.com/user-attachments/assets/bbb61f27-e935-4b45-9783-e7ba657a3758" />
 </p>
@@ -329,21 +331,26 @@ Click on "New" on the bottom left in session manager.
 <p>
 <img width="515" height="363" alt="Step_25_heidi_setup_9" src="https://github.com/user-attachments/assets/0b5f8abc-cb5e-49c8-809f-1828992a9136" />
 </p>
+As mentioned earlier in that important note!* Name session "osTicket" as highlighted and login in with that root username and password that is required. Click "Open" when complete to connect the session.
+<p>
+<img width="752" height="312" alt="Step_26_Finish_Installing_osTicket" src="https://github.com/user-attachments/assets/d6f13484-e7b6-48cb-bd59-3b1dc25ddd86" />
+</p>
+Go back to your web browser to login and finish connecting the SQL database we created with MYSQL and Heidi to link it to your osTicket install as shown.
+<p>
+<img width="960" height="510" alt="Step_27_Install_Complete" src="https://github.com/user-attachments/assets/e71f6706-2962-43b5-888b-6cd9854fac2e" />
+</p>
+Congrats! You have successfully completed installing osTicket. Well done and you are now ready to setup your own helpdesk. Good stuff folks. Thanks for following along the project to this point.
+<p>
+<img width="960" height="510" alt="Step_27_ost_config_read_only" src="https://github.com/user-attachments/assets/a555b9bb-4c98-44af-9d1a-92fca73ef2e2" />
+</p>
+The absolute last thing to do is set the "ost-config.php" file to "read-only". That way no accidental changes can be made. You can do this while setting permissions earlier on of course.
 
-
-
-
-
-
-
-
-<h2>Configuration "Login" Panels</h2>
-
+<h2>Configuration of Paddy's Repairs osTicket</h2>
 <p>
 <img width="1920" height="1080" alt="Admin_Login" src="https://github.com/user-attachments/assets/ac793099-3f05-4450-9e33-c51acc606fa0" />
 </p>
 <p>
-To start of the showcase here is the snapshot of what the administrator window looks like for the brand. Uploaded my own logos and branding to give a more personal feel to the ticketing system.
+To start of the showcase here now that setup is complete is the snapshot of what the administrator window looks like for the brand. Uploaded my own logos and branding to give a more personal feel to the ticketing system.
 </p>
 <br />
 <p>
@@ -356,17 +363,40 @@ The login for the "users" of the platform is a lot more generic. Implemented so 
 </p>
 Fairly straight forward! All you have to do is go to "Admin Panel" in the top right. Once there, Click "Settings" then go to "Company". Under the "Company" tab you will see the tabs "Logos" and Backdrop". You can navigate to those tabs respectively to change your branding to change up from the generic ticketing setup.
 <p/>
-  <img width="1920" height="1080" alt="Change_Logo" src="https://github.com/user-attachments/assets/fbc7bd4c-9dcf-49c7-9c59-0e28f66dafbd" />
+<img width="1920" height="1080" alt="Change_Logo" src="https://github.com/user-attachments/assets/fbc7bd4c-9dcf-49c7-9c59-0e28f66dafbd" />
 </p>
 <img width="1920" height="1080" alt="Change_Backdrop" src="https://github.com/user-attachments/assets/06af1e09-6b31-4dea-8a69-bdc2384ead77" />
 <br />
 <h2>Agent Setup</h2>
 <p>
+<img width="960" height="510" alt="Step_1_Add_New_Agent" src="https://github.com/user-attachments/assets/894acb1c-cf4d-4678-bbf8-d8dc592d5bdc" />
+<p>
+<img width="960" height="510" alt="Step_2_Example_Agent_Add" src="https://github.com/user-attachments/assets/7ee3e88f-ff14-488d-8814-e3423ed29dab" />
+<p>
 <img width="1920" height="1080" alt="Agent_Setup" src="https://github.com/user-attachments/assets/fe687e3c-d230-49ba-ba68-bbed0af470ca" />
 </p>
 <p>
-For this scenario I only setup my self as the agent servicing this help desk. Mocked up to be a one person "Help Desk" and "Repair Technician"
+To add agents. Go into "Admin Panel" settings which is found on the top right of the screen.You can switch back and fourth from Agent and click add new agent. Here are a couple examples of agents added to the ticketing system.
 </p>
+<img width="960" height="510" alt="Step_3_Add_Roles" src="https://github.com/user-attachments/assets/36abefcc-7c12-4ec3-8807-14871832c82e" />
+<p>
+<p>
+<img width="960" height="510" alt="Step_1_Find_Add_Department" src="https://github.com/user-attachments/assets/34c66539-0046-4785-a991-29bc2d7cb0d2" />
+</p>
+<p>
+<img width="960" height="510" alt="Step_2_Add_Department" src="https://github.com/user-attachments/assets/63517df9-cfe5-4e14-9e4a-0d52a0ef6f79" />
+</p>
+You can also add roles and departments to said users highlight in the screen above! Always important to keep things as organized as possible!
+</p>
+<h2>Adding Service Level Agreements<h2>
+<p>
+<img width="960" height="540" alt="Step_1_Add_SLA" src="https://github.com/user-attachments/assets/b474efd9-b450-4fda-bab7-ff433c0309da" />
+</p>
+<p>
+<img width="960" height="510" alt="Step_2_Add_SLA_Confirm" src="https://github.com/user-attachments/assets/77b6450b-521b-4697-81ab-cb258ea49b1a" />
+</p>
+Important to add SLA's to your help desk system. You can do so by going into the "Admin Panel" and going into the SLA tab as shown.
+
 <h2>Users Listed</h2>
 </p>
 <img width="1920" height="1080" alt="Users_Setup" src="https://github.com/user-attachments/assets/eb7c058e-c962-4984-93c1-594d140a0d27" />
