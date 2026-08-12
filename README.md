@@ -14,9 +14,11 @@ This project outlines the initial setup briefly and post-install configuration o
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 11 (Main Machine)
+- Windows 10 Enterprise</b> (21H2) (Virtual Machine)
 
 - <h2>Install Overview Objectives</h2>
+- Setting up the Resource Group and Virtual Machine within Azure.
 - Downloading the files.
 - Successfully installing plugins and setting up IIS.
 - Extracting files to required locations on hard drive.
@@ -30,20 +32,66 @@ This project outlines the initial setup briefly and post-install configuration o
 - Show working knowledge of Azure, Virtual Machines and osTicket.
 
 <h2>Setting up the Virtual Machine in Azure</h2>
-<p>
-<img width="1955" height="1080" alt="Step_1_Setup_osTicket_Resource_Group" src="https://github.com/user-attachments/assets/82808e28-2e50-4a00-810f-a3f16515c952" />
-</p>
-Create a new resource group!
 
+<h2>Step 1, Create Resource Group</h2>
 <p>
-<img width="1984" height="1080" alt="Step_2_Setup_osTicket_Network" src="https://github.com/user-attachments/assets/703889a8-1740-4f18-a831-242f22953431" />
+<img width="960" height="510" alt="Step_1_Setup_osTicket_Resource_Naming_Group" src="https://github.com/user-attachments/assets/d1af3f19-49ed-4fa0-9055-de9fab6cdb8e" />
+<p>
+<img width="960" height="510" alt="Step_1_Setup_osTicket_Tags_Organize" src="https://github.com/user-attachments/assets/b01698df-fc71-446e-ac92-b55917ef66c5" />
 </p>
-Setup new virtual network!
+<p>
+<img width="960" height="510" alt="Step_1_Setup_osTicket_Resource_Create" src="https://github.com/user-attachments/assets/aabf22fd-fa41-4926-b3f9-3311e9cb1fcd" />
+<p>
+Login into Azure, find the tab "create a new resource group" on your side panel of options. Calling it osTicket since that is the what we are setting up in this exercise. You can also add organizational tags as an option to help keep things more organized as you go through the setup of the virtual machine and resources for your osTicket.
+</b>
 
+<h2>Create the Virtual Network</h2>
 <p>
-<img width="1960" height="1080" alt="Step_3_Setup_osTicket_VM" src="https://github.com/user-attachments/assets/ebbc6f79-53e3-490f-9c61-a059fb762e99" />
+<img width="960" height="510" alt="Step_2_Setup_osTicket_Network_Create" src="https://github.com/user-attachments/assets/c74c9b34-d3b8-4c94-aa02-0dd8f05b5d90" />
 </p>
-Create new virtual machine. Labelled in correlation to the exercise. This case "osTicket". 
+To keep in good habits we are going to setup up a new virtual network instead of allowing a default one to be created with the virtual machine. 
+<p>
+<img width="960" height="510" alt="Step_2_Setup_osTicket_Network_Create_Basics" src="https://github.com/user-attachments/assets/d8cc8570-da07-40b5-a2de-327a59f13f69" />
+</p>
+Go through and setup the basics tab. I named the network "osTicketnet". Be sure to make sure that the location of your virtual network is set in the same location that your virtual machine is going to be located in.
+<p>
+<img width="961" height="510" alt="Step_2_Setup_osTicket_Network_Create_Review" src="https://github.com/user-attachments/assets/39c6fa15-991a-4f24-80d2-f9dce6a883cb" />
+</p>
+Once you have reviewed your settings and are content with how things look. Go ahead and hit "review and create".
+
+<h2>Setting Up the Virtual Machine in Azure</h2>
+<p>
+<img width="960" height="510" alt="Step_3_Setup_osTicket_VM_Create" src="https://github.com/user-attachments/assets/ac6e44db-2b49-4681-98b7-4c56aa316393" />
+</p>
+<p>
+<img width="960" height="510" alt="Step_3_Setup_osTicket_VM_Setup" src="https://github.com/user-attachments/assets/7443f980-811c-4eca-a3af-d39f24111f41" />
+</p>
+Find the "create" in the virtual machine resource tab.
+<p>
+<img width="960" height="510" alt="Step_3_osTicket_VM_Basic_Setup" src="https://github.com/user-attachments/assets/a2bc4b3a-10bf-4d6f-a89d-15915364a3d7" />
+</p>
+Navigate to basics tab for setup. Settings can look something like what is shown above.
+<p>
+<img width="960" height="510" alt="Step_3_Setup_osTicket_VM_Setup_Network" src="https://github.com/user-attachments/assets/0cdb419d-bafb-4ed5-8fd6-e9c4620f5213" />
+</p>
+Like I said when setting up the virtual network, be sure to keep the virtual machines location in the same place as the network we created.
+<p>
+<img width="961" height="510" alt="Step_3_Setup_osTicket_VM_Waiting_Complete" src="https://github.com/user-attachments/assets/49db00f5-78ae-4aa9-b46b-aaa17de1fac4" />
+</p>
+At this point we can click "review+create" as these settings will suffice for this exercise on the virtual machine to run osTicket.
+<p>
+<img width="960" height="510" alt="Step_4_Connect_VM" src="https://github.com/user-attachments/assets/0892b7a8-25cf-4b31-8980-d12a6d486bdd" />
+</p>
+Now that the virtual machine is created. Click on the machine name itself to go into its settings.
+<p>
+<img width="960" height="510" alt="Step_4_Connect_VM_Public_IP" src="https://github.com/user-attachments/assets/909b4297-ce73-4a34-b5fa-538411d848ca" />
+</p>
+Scroll down to find the virtual machines public IP address. This is what we need to connect to it with remote desktop.
+<p>
+<img width="305" height="193" alt="Step_4_Open_RDP_Connect" src="https://github.com/user-attachments/assets/e2ca4122-5dcf-41df-b809-7f1a09bbdf24" />
+</p>
+Right on! Now we can connect to the VM we are going to setup osTicket within.
+</b>
 
 <h2>Install Steps</h2>
 
