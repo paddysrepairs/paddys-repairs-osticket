@@ -197,7 +197,8 @@ Select "Typical" for the install variation and click "Next".
 <b>
 There is a step to create a root login for at this stage*. Be sure to create the login to something that you will easily remember and not lose as we will need it later on in the step up process.
 </b>
-
+<b>
+</b>
 <p>
 <img width="960" height="510" alt="Step_15_Install_MYSQL_4" src="https://github.com/user-attachments/assets/4f2f84ba-a31b-455d-a216-d1b0c22b7777" />
 </p>
