@@ -145,6 +145,20 @@ At this point "Internet Information Services" should be turned on successfully
 
 <h2>Step 3, Install Packages in osTicket Download Folder</h2>
 <p>
+<img width="960" height="510" alt="Step_6_PHP_Installer" src="https://github.com/user-attachments/assets/6b807fbf-988a-4a8e-910c-e2b6a7802065" />
+</p>
+Since we have IIS turned on, we can go ahead and install PHP Manager first. Right click "Run as Admin" and click "Next" to continue.
+<p>
+<img width="960" height="510" alt="Step_6_PHP_Installer_2" src="https://github.com/user-attachments/assets/38140778-83d8-43cc-95ca-4ce80f844f46" />
+<p>
+<img width="960" height="510" alt="Step_6_PHP_Installer_2" src="https://github.com/user-attachments/assets/a252f5d5-f239-4bd1-a347-e919237c963c" />
+</p>
+Go ahead and agree to license and click "Next" to install.
+<p>
+<img width="960" height="510" alt="Step_6_PHP_Installer_3" src="https://github.com/user-attachments/assets/64885bbc-8b82-466f-828d-0d70ed2a442c" />
+</p>
+PHP Manager has now been successfully installed!
+<p>
 Install the Rewrite Module. Right click and "Run as Admin". Accept the license terms and click "Next".
 <p>
 <img width="960" height="510" alt="Step_11_Rewrite_Module_Install_2" src="https://github.com/user-attachments/assets/b97aabfb-5827-48ef-ac18-6076a2faeed1" />
@@ -206,7 +220,7 @@ The config wizard is now ready to go! Click "Execute" to finish setting up the c
 </p>
 The configure wizard should be complete at this point! Nice, we can now close out of this step.
 
-<h2>Step 4 Finish setting up the PHP Server</h2>
+<h2>Step 4 Finish setting up the PHP Server and Database</h2>
 <p>
 <img width="960" height="540" alt="Step_16_Run_IIS" src="https://github.com/user-attachments/assets/3bd091c3-45d7-4982-a8a3-bc3e1ea640f2" />
 </p>
@@ -260,8 +274,61 @@ We now want to "disable inheritance" to remove the default permissions the file 
 </p>
 Now that we have removed all the default users listed that had permissions. We want to click on "Add".
 <p>
-
+<img width="960" height="510" alt="Step_21_ost_permissions_add_2" src="https://github.com/user-attachments/assets/f1dd4ca7-ef9f-4090-9f47-2b52200ee40b" />
+<p>
+<img width="688" height="455" alt="Step_21_ost_permissions_add_3" src="https://github.com/user-attachments/assets/deee620b-44ff-434a-8b7d-31b26495f980" />
 </p>
+<img width="960" height="510" alt="Step_21_ost_permissions_add_4" src="https://github.com/user-attachments/assets/9daf09cd-41a2-47f1-951c-ef2727b6aa04" />
+<p>
+At this point we are done with permissions on the config file. Its not necessarily real world viable to do this step, but for the sake of the exercise we are setting the permissions to this for ease of access on the ticketing system.
+<p>
+<img width="960" height="510" alt="Step_22_osTicket_Open_Browser" src="https://github.com/user-attachments/assets/89b7eb2f-a29d-44a1-9e59-7c2f877d8a4f" />
+<p>
+Next we want to go back to IIS and find the "Open Browser" for our default osTicket site as shown.
+<p>
+<img width="960" height="510" alt="Step_23_osTicket_Browser_Next" src="https://github.com/user-attachments/assets/5a35e8c0-8d1a-4ccf-9d42-0968d6b522da" />
+</p>
+If setup has been done right and things are going smoothly. You should see exactly like I have above. We can continue on with the rest of installing osTicket. Click "Next".
+<p>
+<img width="960" height="510" alt="Step_24_osTicket_account_setup_info" src="https://github.com/user-attachments/assets/083584a9-e103-43fb-ac5f-c5f39461c59c" />
+</p>
+Fill in the default accounts that will be used for your ticketing system.
+<p>
+<img width="960" height="510" alt="Step_25_heidi_setup" src="https://github.com/user-attachments/assets/73ac7137-f4ef-4e43-a6b1-f4d30f23e9c7" /> 
+</p>
+Minimise your web browser for a breif moment as we need to install one last component for the database. Time to setup Heidi. Navigate to where the installer is in the downloads folder.
+<p>
+<img width="960" height="510" alt="Step_25_heidi_setup_2" src="https://github.com/user-attachments/assets/bbb61f27-e935-4b45-9783-e7ba657a3758" />
+</p>
+Right click "Run as Admin" and continue with the install.
+<p>
+<img width="960" height="510" alt="Step_25_heidi_setup_3" src="https://github.com/user-attachments/assets/0c0e9201-ae13-404c-acc9-6902f55dff25" />
+</p>
+Set your default install location (or install wherever your prefer of course) then click on "Next".
+<p>
+<img width="449" height="339" alt="Step_25_heidi_setup_4" src="https://github.com/user-attachments/assets/3280644a-552d-4e41-a3cc-baf3caeea9bc" />
+</p>
+All good to select all of the additional tasks to complete and click "Next".
+<p>
+<img width="449" height="339" alt="Step_25_heidi_setup_5" src="https://github.com/user-attachments/assets/292a5ec7-e675-4888-95e2-dd59c4fb7896" />
+</p>
+Go ahead and click "Install" to proceed with finishing up the installation.
+<p>
+<img width="449" height="339" alt="Step_25_heidi_setup_6" src="https://github.com/user-attachments/assets/6fc42d9e-be15-402d-9de7-cee9f492d7fa" />
+</p>
+Not quite done with Heidi yet. Go ahead and launch it and click "Finish".
+<p>
+<img width="290" height="340" alt="Step_25_heidi_setup_7" src="https://github.com/user-attachments/assets/8297211c-4a18-4e56-90c4-aeeadf40e3df" />
+</p>
+Skip updates even if it says there are some available. Do not need to do them to complete setup for this project.
+<p>
+<img width="515" height="363" alt="Step_25_heidi_setup_8" src="https://github.com/user-attachments/assets/0bd255eb-515b-4804-a6c1-8916297cb1a6" />
+</p>
+Click on "New" on the bottom left in session manager.
+<p>
+<img width="515" height="363" alt="Step_25_heidi_setup_9" src="https://github.com/user-attachments/assets/0b5f8abc-cb5e-49c8-809f-1828992a9136" />
+</p>
+
 
 
 
