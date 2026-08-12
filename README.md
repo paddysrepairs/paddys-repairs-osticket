@@ -11,6 +11,7 @@ This project outlines the initial setup briefly and post-install configuration o
 - Remote Desktop
 - Internet Information Services (IIS)
 - osTicket
+- 7zip
 
 <h2>Operating Systems Used </h2>
 
@@ -32,8 +33,6 @@ This project outlines the initial setup briefly and post-install configuration o
 - Show working knowledge of Azure, Virtual Machines and osTicket.
 
 <h2>Setting up the Virtual Machine in Azure</h2>
-
-<h2>Step 1, Create Resource Group</h2>
 <p>
 <img width="960" height="510" alt="Step_1_Setup_osTicket_Resource_Naming_Group" src="https://github.com/user-attachments/assets/d1af3f19-49ed-4fa0-9055-de9fab6cdb8e" />
 <p>
@@ -97,30 +96,49 @@ Right on! Now we can connect to the VM we are going to setup osTicket within.
 
 <h2>Step 1, Download Files</h2>
 <p>
-<img width="1288" height="700" alt="Install_Step_1_File_Folder" src="https://github.com/user-attachments/assets/755cb0f6-e477-44ad-bb8a-d31e0b1f9f1f" />
+<img width="774" height="488" alt="Step_1_VM_Open_Browser" src="https://github.com/user-attachments/assets/13ccfebe-9dd0-400d-902e-19b9bad4d637" />
+</p>
+Open your web browser. In this case just going to use Microsoft Edge as default.
+<p>
+<img width="960" height="510" alt="Step_2_Download_osTicket" src="https://github.com/user-attachments/assets/91bdd0ee-c824-435c-ab9c-90345ff47694" />
 </p>
 Downloaded osTicket from its resouce page on the website: 
 https://osticket.com/download/ 
 Once complete extract the folder via 7zip or whatever extractor of choice to downloads folder.
 
-<h2>Step 2, Extract PHP folder!</h2>
+<h2>Step 2, Download 7zip!</h2>
 <p>
-<img width="1870" height="1003" alt="Install_Step_4_Create" src="https://github.com/user-attachments/assets/d1f7f956-0f80-430e-8b1c-6a6fe22b888c" />
+<img width="960" height="510" alt="Step_3_Download_7zip" src="https://github.com/user-attachments/assets/23f1e0fc-9633-4d68-a7ca-558b96a8e26b" />
 <p>
-<img width="1920" height="1080" alt="Install_Step_2_PHP_Extract" src="https://github.com/user-attachments/assets/5a89fe96-06d3-4bf0-8c15-6d66a7ca0630" />
+Navigate to 7zips website to download it. You don't necessarily need to do this step, but I believe 7zip is a far superior extraction tool on Windows than other options.
+<p>
+<img width="590" height="445" alt="Step_3_Download_7zip_2" src="https://github.com/user-attachments/assets/12256c01-db71-4557-8adc-1493917d657c" />
+<p>
+Download the installer as shown and right click. "Run as Admin" to begin install.
+<p>
+<img width="960" height="510" alt="Step_4_Install_7zip_Success" src="https://github.com/user-attachments/assets/940bdfa6-6b24-4d87-aeb7-e0b8e0ab24bc" />
 </p>
-Create a folder on your c: drive named "PHP" and move/ copy the PHP folder in the osTicket install files to it as shown.
+7zip should be sucessfully installed at this stage! Onto installing osTicket
 
 <h2>Step 3, Install Packages in Folder</h2>
 <p>
-<img width="1053" height="652" alt="Install_Step_3_Rewrite" src="https://github.com/user-attachments/assets/bd7a860e-faac-4683-8e59-e2de6031fe49" />
+<img width="590" height="445" alt="Step_5_Extract_osTicket" src="https://github.com/user-attachments/assets/f6a09083-3f06-4948-bd1b-5b96e008c0b7" />
 </p>
-Install and go through the prompts in the for the rewrite_amd installer and wait for it to finish installing.
+Extract the files using 7zip which we just installed to the downloads folder. Right click "Extract here"
 
+<h2>Turn on IIS for PHP server</h2>
 <p>
-<img width="1165" height="782" alt="Install_Step_5_Install_VC" src="https://github.com/user-attachments/assets/d164cdda-d46d-4ba3-9c87-5471f55eb396" />
+<img width="590" height="445" alt="Step_7_Control_Panel" src="https://github.com/user-attachments/assets/76c27472-76e1-405f-ac0d-5f0ac9b42bf5" />
 </p>
-Next install VC_redist.x86 packages. Your PC may already have them installed but in the case of installing this on an Azure remote machine. Ran it fine and installed them.
+Navigate to "Control Panel and click on "Programs".
+<p>
+<img width="590" height="445" alt="Step_8_Windows_Features_On_Off" src="https://github.com/user-attachments/assets/eee7d2b0-3dda-45c7-858d-2f6bfb40aaa2" />
+</p>
+As highlighted. Selected "Turn Windows Features On or Off".
+<p>
+<img width="960" height="510" alt="Step_9_IIS_CGI" src="https://github.com/user-attachments/assets/22389104-9cb6-4f48-ace0-d85fb62070f6" />
+</p>
+Select "Internet Information Services" and make sure it is checked off properly we are then going to navigate to "World Wide Web Services" > "Application and Development Features" > Turn on "CGI. Then click "OK" to continue.
 
 <p>
 <img width="1500" height="732" alt="Install_Step_6_SQL" src="https://github.com/user-attachments/assets/538f37e8-120f-4dc5-9ecb-91dbc6bdd592" />
