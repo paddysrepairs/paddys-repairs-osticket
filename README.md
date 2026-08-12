@@ -140,8 +140,6 @@ Select "Internet Information Services" and make sure it is checked off properly 
 <p>
 At this point "Internet Information Services" should be turned on successfully
 </p>
-<img width="960" height="510" alt="Step_11_Rewrite_Module_Install" src="https://github.com/user-attachments/assets/b292b3d0-6e90-4629-ac85-6d388c44156d" />
-</p>
 
 <h2>Step 3, Install Packages in osTicket Download Folder</h2>
 <p>
@@ -158,7 +156,8 @@ Go ahead and agree to license and click "Next" to install.
 <img width="960" height="510" alt="Step_6_PHP_Installer_3" src="https://github.com/user-attachments/assets/64885bbc-8b82-466f-828d-0d70ed2a442c" />
 </p>
 PHP Manager has now been successfully installed!
-<p>
+</p>
+
 Install the Rewrite Module. Right click and "Run as Admin". Accept the license terms and click "Next".
 <p>
 <img width="960" height="510" alt="Step_11_Rewrite_Module_Install_2" src="https://github.com/user-attachments/assets/b97aabfb-5827-48ef-ac18-6076a2faeed1" />
@@ -191,10 +190,12 @@ Accept the license agreement and click "Next".
 <p>
 <img width="960" height="510" alt="Step_15_Install_MYSQL_3" src="https://github.com/user-attachments/assets/ba7e353d-acbb-4852-8370-e43d6c929af3" />
 </p>
-<p>
-<img width="960" height="510" alt="Step_15_Install_MYSQL_3" src="https://github.com/user-attachments/assets/74fbc0eb-05f1-4dfb-a2b2-05f0d0b43555" />
-<p>
 Select "Typical" for the install variation and click "Next".
+
+<h2>Important Note<h2>
+There is a step to create a root login for at this stage*. Be sure to create the login to something that you will easily remember and not lose as we will need it later on in the step up process.
+</b>
+
 <p>
 <img width="960" height="510" alt="Step_15_Install_MYSQL_4" src="https://github.com/user-attachments/assets/4f2f84ba-a31b-455d-a216-d1b0c22b7777" />
 </p>
