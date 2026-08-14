@@ -423,12 +423,21 @@ To add help topics, you want to make sure you are in the "Admin Panel" and navig
 <p>
 <img width="1920" height="1040" alt="Add_Help_Topics_Details_2" src="https://github.com/user-attachments/assets/f1dd5bc1-0fd7-4ee1-a9e0-4d3b6d4042f3" />
 </p>
-Fill in the default options you would like for tickets by going to the "New Ticket Options" tab. When you are done you can click "Add Topic". 
-</p>
+Fill in the default options you would like for tickets by going to the "New Ticket Options" tab. When you are done you can click "Add Topic".
+<p>
 I wanted to have a little variety of issues to choose from if a client were to reach out for assistance using the platform. The topics I included in the ticketing system are listed below:
 </p>
 <img width="1920" height="1080" alt="Help_Topics_Paddy&#39;s_Repairs" src="https://github.com/user-attachments/assets/ce160d3e-e2ad-4c02-87c4-556649dca080" />
 </p>
+<h2>Adding New Tickets</h2>
+<p>
+<img width="1920" height="1040" alt="Tickets_UI" src="https://github.com/user-attachments/assets/becfb08d-f2fb-443f-a789-af793990083f" />
+</p>
+From the Agent Panel we can check to see what tickets are open, assigned and closed.
+<p>
+<img width="1920" height="1040" alt="Tickets_UI_2" src="https://github.com/user-attachments/assets/fce7f183-3985-472c-9645-26fa3df83f73" />
+</p>
+We can also add new tickets internally is osTicket under the same ticket tab. Tickets > New Ticket. Fill in the details.
 <br />
 <h2>Working Ticket Cycle Example 1 "Prof Oaks Business Critical Network Issue"</h2>
 </p>
