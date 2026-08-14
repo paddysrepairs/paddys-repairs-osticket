@@ -230,11 +230,11 @@ The configure wizard should be complete at this point! Nice, we can now close ou
 </p>
 Next we need to run "Internet Information Services" as Administrator. Search for it and right click on the program to do so.
 <p>
-<img width="960" height="510" alt="Step_16_IIS_PHP_Manager" src="https://github.com/user-attachments/assets/a5536cf1-4439-4529-8ba0-47355e12f96f" />
+<img width="1426" height="752" alt="Step_16_IIS_PHP_Manager" src="https://github.com/user-attachments/assets/75c33e0f-2ba6-44f2-a85e-286c21c95de1" />
 <p>
 We need to navigate to PHP manager for our Default site next.
 <p>
-<img width="960" height="510" alt="Step_17_New_PHP_Version" src="https://github.com/user-attachments/assets/f76c68b3-4728-464e-b4e2-155f8147283b" />
+<img width="1426" height="752" alt="Step_17_New_PHP_Version" src="https://github.com/user-attachments/assets/724e8c47-0739-4b6e-82d1-a6841b2d7dd3" />
 <p>
 Time to register that new PHP version that we downloaded and shifted over to our C: drive! Click "Add new PHP version".
 <p>
@@ -374,7 +374,9 @@ Fairly straight forward! All you have to do is go to "Admin Panel" in the top ri
 <p>
 <img width="960" height="510" alt="Step_2_Example_Agent_Add" src="https://github.com/user-attachments/assets/7ee3e88f-ff14-488d-8814-e3423ed29dab" />
 <p>
-<img width="1920" height="1080" alt="Agent_Setup" src="https://github.com/user-attachments/assets/fe687e3c-d230-49ba-ba68-bbed0af470ca" />
+Example of adding a different agent than default registered.^*
+</p>
+<img width="1920" height="1080" alt="Agent_Setup_2" src="https://github.com/user-attachments/assets/e960574d-b83e-4806-9707-fd29ca5946a0" />
 </p>
 <p>
 To add agents. Go into "Admin Panel" settings which is found on the top right of the screen.You can switch back and fourth from Agent and click add new agent. Here are a couple examples of agents added to the ticketing system.
@@ -399,12 +401,29 @@ You can also add roles and departments to said users highlight in the screen abo
 Important to add SLA's to your help desk system. You can do so by going into the "Admin Panel" and going into the SLA tab as shown.
 
 <h2>Users Listed</h2>
+<p>
+<img width="1920" height="1040" alt="Add_Users" src="https://github.com/user-attachments/assets/7928482f-ec71-46c6-bb73-6e372d1d6412" />
 </p>
+To add users to the ticketing system. Make sure you are in the "Agent Panel" and navigate to the Users Tab > User Directory > Add User.
+<p>
+<img width="1920" height="1040" alt="Add_Users_2" src="https://github.com/user-attachments/assets/c7e2693b-142b-4541-a7ff-0d335b472af9" />
+<p>
+Finish adding in details for the User in the window shown.
+<p>
+<p>
 <img width="1920" height="1080" alt="Users_Setup" src="https://github.com/user-attachments/assets/eb7c058e-c962-4984-93c1-594d140a0d27" />
 </p>
 I only registered a few users while setting up this excerise/ project. Since I am fairly big Pokemon Fan. I decided to setup fictional scenarios assisting characters in that universe with their tech needs as a help desk agent.
 <br />
 <h2>Help Topics Added</h2>
+<p>
+<img width="1920" height="1040" alt="Add_Help_Topics" src="https://github.com/user-attachments/assets/92dc55cf-5067-450a-9be7-a998242228e6" />
+<p>
+To add help topics, you want to make sure you are in the "Admin Panel" and navigate to the "Manage" tab as shown and click on "Add New Help Topic".
+<p>
+<img width="1920" height="1040" alt="Add_Help_Topics_Details_2" src="https://github.com/user-attachments/assets/f1dd5bc1-0fd7-4ee1-a9e0-4d3b6d4042f3" />
+</p>
+Fill in the default options you would like for tickets by going to the "New Ticket Options" tab. When you are done you can click "Add Topic". 
 </p>
 I wanted to have a little variety of issues to choose from if a client were to reach out for assistance using the platform. The topics I included in the ticketing system are listed below:
 </p>
